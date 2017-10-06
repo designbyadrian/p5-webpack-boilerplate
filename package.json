@@ -7,7 +7,7 @@
     "watchify": "watchify --debug src/main.js -o dist/build.js -v",
     "serve": "http-server -c 1 -a localhost",
     "dev": "npm-run-all --parallel watchify serve",
-    "build": "browserify -g [ css-extract -o ./dist/style.css ] -e ./src/main.js | uglifyjs -c warnings=false -m > ./dist/build.js"
+    "build": "browserify ./src/main.js -o dist/build.js"
   },
   "browserify": {
     "transform": [
