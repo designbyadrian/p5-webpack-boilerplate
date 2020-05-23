@@ -18,7 +18,9 @@ Yarn
 
 `$ yarn install` to install dependencies;
 
-`$ yarn dev` to start a webserver at `http://localhost:8080` and to start watching for changes to files. Start coding!
+`$ yarn dev` to start a webserver at `http://localhost:8080` and to start watching for changes to files.
+
+Find your Sketch program in `src/Sketch/index.js`. Happy processing! 🥳
 
 ## 📦 Build
 
